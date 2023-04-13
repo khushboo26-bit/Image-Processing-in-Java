@@ -11,7 +11,7 @@ public class sepia
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
@@ -55,7 +55,7 @@ public class sepia
     }
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\sepia.jpg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\sepia1.jpg");
       System.out.println("Added the sepia filter to the image!!");
       ImageIO.write(image, "jpg", file);
     }

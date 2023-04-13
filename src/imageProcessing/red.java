@@ -13,7 +13,7 @@ public class red
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
@@ -35,7 +35,7 @@ public class red
     }
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\red.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\red1.jpeg");
       System.out.println("SConverted the image to a red image");
       ImageIO.write(image, "jpeg", file);
     }

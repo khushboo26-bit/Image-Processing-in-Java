@@ -13,7 +13,7 @@ public class watermark
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
@@ -32,7 +32,7 @@ public class watermark
     graphics.drawString(watermark, image.getWidth()/5, image.getHeight()/3);
     graphics.dispose();
 
-    file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\watermark.png");
+    file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\watermark1.png");
     try
     {
       ImageIO.write(temp, "png", file);

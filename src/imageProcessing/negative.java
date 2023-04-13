@@ -12,7 +12,7 @@ public class negative
     File file = null;
     try
     {
-      file = new 		File("/D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new 		File("/D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
@@ -42,7 +42,7 @@ public class negative
     }
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\negative.png");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\negative1.png");
       ImageIO.write(image, "jpg", file);
       System.out.println("Converted the image to negative!!");
     }

@@ -13,7 +13,7 @@ public class greyScale
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
@@ -38,7 +38,7 @@ public class greyScale
     }
     try
     {
-      file = new File("D:\\\\KHUSHBOO\\\\JAVA\\\\imageProcessing\\\\src\\\\pictures\\\\greyScale.png");
+      file = new File("D:\\\\KHUSHBOO\\\\JAVA\\\\imageProcessing\\\\src\\\\pictures\\\\greyScale1.png");
       ImageIO.write(image, "png", file);
       System.out.println("Converted the image to grey scale");
     }

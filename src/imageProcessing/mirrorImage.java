@@ -12,7 +12,7 @@ public class mirrorImage
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\khushboo.jpeg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
       img1 = ImageIO.read(file);
     }
     catch(IOException e)
@@ -34,7 +34,7 @@ public class mirrorImage
     // save mirror image
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\mirror.png");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\mirror1.png");
       ImageIO.write(img2, "png", file);
       System.out.println("mirror image completed!!");
     }

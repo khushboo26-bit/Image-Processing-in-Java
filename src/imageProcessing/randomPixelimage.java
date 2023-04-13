@@ -22,7 +22,7 @@ public class randomPixelimage
       {
         //Generating values less than 250
         int a = (int)(Math.random()*255);
-        int r = (int)(Math.random()*255);
+        int r = (int)(Math.random()*220);
         int g = (int)(Math.random()*255);
         int b = (int)(Math.random()*255);
 
@@ -34,7 +34,7 @@ public class randomPixelimage
     // write image
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\random.png");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\random1.png");
       ImageIO.write(image, "png", file);
       System.out.println("Created a random pixel image!!");
     }
