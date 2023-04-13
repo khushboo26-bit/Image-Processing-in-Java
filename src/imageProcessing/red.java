@@ -13,7 +13,7 @@ public class red
     File file = null;
     try
     {
-      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\pic.jpg");
+      file = new File("D:\\KHUSHBOO\\JAVA\\imageProcessing\\src\\pictures\\original.jpg");
       image = ImageIO.read(file);
     }
     catch(IOException e)
